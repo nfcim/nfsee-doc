@@ -1,0 +1,24 @@
+# Site settings
+title: NFSee
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  NFSee is an Android application to read NFC cards.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nfsee.nfc.im" # the base hostname & protocol for your site
+# twitter_username:  
+github_username: nfcim 
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+# Third-party services
+# just leave someone empty to disable it
+# google_analytics: 
+disqus_shortname:
+
+# used this for post_excerpt at index_page
+excerpt_separator: <!--description-->
