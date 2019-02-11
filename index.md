@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: 主页
 ---
 
 ## Hi there
