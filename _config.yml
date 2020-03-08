@@ -1,7 +1,7 @@
 title: NFSee
 lang: zh_CN
 description: >
-  NFSee is an Android application to read NFC cards.
+  NFSee is a flutter application running on iOS & Android that can dump data from various types of NFC tags & cards.
 baseurl: ""
 url: "https://nfsee.nfc.im"
 github_username: nfcim
