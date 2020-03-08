@@ -17,13 +17,9 @@
     <div class="site-nav">
       <nav>
         <ul class="page-link">
-          <li><a href="{{ "/" | prepend: site.baseurl }}">主页</a></li>
-          <li><a href="{{ "/add-card-support" | prepend: site.baseurl }}">添加卡片支持</a></li>
-          <li><a href="{{ "/lua-extension" | prepend: site.baseurl }}">Lua 扩展 API</a></li>
-          <!-- <li><a href="{{ "/archive" | prepend: site.baseurl }}">Archive</a></li> -->
-          <li><a href="{{ "/about" | prepend: site.baseurl }}">关于</a></li>
-          <li><a href="{{ "/donate" | prepend: site.baseurl }}">捐赠</a></li>
-          <!-- <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li> -->
+          {% for item in site.sidebar %}
+          <li><a href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a></li>
+          {% endfor %}
         </ul>
       </nav>
     </div>
